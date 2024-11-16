@@ -267,16 +267,6 @@
          "responses": ["Cool the burn with cool (not cold) water for at least 10 minutes. Cover the burn with a sterile, non-stick dressing or a clean cloth. Do not apply butter, oils, or creams directly on the burn. Over-the-counter pain relievers like ibuprofen or acetaminophen can help with pain. If the burn is severe, seek medical attention immediately."],
          "context_set": ""
         },
-        {"tag": "Bruises",
-         "patterns": ["How do you treat bruises?", "Bruise care", "How to heal bruises?", "What to apply for bruises?", "Which medicine is good for bruises?", "Bruises"],
-         "responses": ["Apply a cold compress to the bruise for the first 24 to 48 hours to reduce swelling. Keep the bruised area elevated if possible. After 48 hours, apply a warm compress to increase blood flow and aid in healing. Arnica gel or cream can help reduce swelling and pain."],
-         "context_set": ""
-        },
-        {"tag": "Sprains",
-         "patterns": ["How to treat a sprain?", "What to do for sprains?", "Which medicine to apply for a sprain?", "Sprain treatment?", "Sprains"],
-         "responses": ["Use the R.I.C.E method: Rest the affected limb, Ice the area to reduce swelling, Compress the sprain with an elastic bandage, and Elevate the injured limb above the level of the heart. Over-the-counter pain relievers like ibuprofen can reduce pain and swelling. If the pain persists, seek medical attention."],
-         "context_set": ""
-        },
         {"tag": "Blisters",
          "patterns": ["How to treat blisters?", "What to do if blisters form?", "Which medicine to apply for blisters?", "Blister care", "Blisters"],
          "responses": ["Wash the area gently with soap and water. Cover the blister with a sterile bandage or dressing. If the blister pops, apply an antibiotic ointment to the area and cover it with a sterile dressing. Do not remove the roof of the blister; let it heal naturally. Pain relievers like acetaminophen can help with discomfort."],
@@ -300,16 +290,6 @@
         {"tag": "Allergic Reactions",
          "patterns": ["How to treat allergic reactions?", "Allergic reaction care", "What to do for an allergic reaction?", "Which medicine to take for an allergic reaction?", "Allergic reactions"],
          "responses": ["Take an antihistamine like diphenhydramine (Benadryl) to reduce symptoms. Use a cool compress to soothe the skin. If you have difficulty breathing, use an epinephrine injector if prescribed and seek emergency medical care immediately."],
-         "context_set": ""
-        },
-        {"tag": "Choking",
-         "patterns": ["What to do if someone is choking?", "How to treat choking?", "Choking first aid?", "Help for choking", "Choking emergency"],
-         "responses": ["Encourage the person to cough if they can. If they cannot cough, speak, or breathe, perform the Heimlich maneuver by standing behind them and giving upward abdominal thrusts. Seek emergency medical attention if the obstruction does not clear."],
-         "context_set": ""
-        },
-        {"tag": "Heat Exhaustion",
-         "patterns": ["How to treat heat exhaustion?", "What to do if heat exhaustion occurs?", "Heat exhaustion care", "Which medicine to take for heat exhaustion?", "Heat exhaustion treatment"],
-         "responses": ["Move the person to a cool place and remove excess clothing. Offer cool water or a sports drink. Apply cool, wet cloths to the skin or use a fan to lower body temperature. Seek medical attention if symptoms worsen or do not improve."],
          "context_set": ""
         },
         {"tag": "Hypothermia",
