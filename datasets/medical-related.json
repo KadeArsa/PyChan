@@ -261,6 +261,85 @@
          "patterns": ["How do you treat a Fracture?", "what to do if i get a Fracture?", "Which medicine to take if I have a Fracture?", "How to cure a Fracture?"],
          "responses": ["1)Stop any bleeding. Apply pressure to the wound with a sterile bandage, a clean cloth or a clean piece of clothing. 2)Immobilize the injured area. Don't try to realign the bone or push a bone that's sticking out back in. If you've been trained in how to splint and professional help isn't readily available, apply a splint to the area above and below the fracture sites. Padding the splints can help reduce discomfort. 3)Apply ice packs to limit swelling and help relieve pain. Don't apply ice directly to the skin. Wrap the ice in a towel, piece of cloth or some other material. 4)Treat for shock. If the person feels faint or is breathing in short, rapid breaths, lay the person down with the head slightly lower than the trunk and, if possible, elevate the legs."],
          "context_set": ""
+        },
+        {"tag": "Burns",
+         "patterns": ["How do you treat burns?", "Burn treatment", "What to apply on burns?", "Which medicine to use for burns?", "How to cure burns?", "Burns"],
+         "responses": ["Cool the burn with cool (not cold) water for at least 10 minutes. Cover the burn with a sterile, non-stick dressing or a clean cloth. Do not apply butter, oils, or creams directly on the burn. Over-the-counter pain relievers like ibuprofen or acetaminophen can help with pain. If the burn is severe, seek medical attention immediately."],
+         "context_set": ""
+        },
+        {"tag": "Bruises",
+         "patterns": ["How do you treat bruises?", "Bruise care", "How to heal bruises?", "What to apply for bruises?", "Which medicine is good for bruises?", "Bruises"],
+         "responses": ["Apply a cold compress to the bruise for the first 24 to 48 hours to reduce swelling. Keep the bruised area elevated if possible. After 48 hours, apply a warm compress to increase blood flow and aid in healing. Arnica gel or cream can help reduce swelling and pain."],
+         "context_set": ""
+        },
+        {"tag": "Sprains",
+         "patterns": ["How to treat a sprain?", "What to do for sprains?", "Which medicine to apply for a sprain?", "Sprain treatment?", "Sprains"],
+         "responses": ["Use the R.I.C.E method: Rest the affected limb, Ice the area to reduce swelling, Compress the sprain with an elastic bandage, and Elevate the injured limb above the level of the heart. Over-the-counter pain relievers like ibuprofen can reduce pain and swelling. If the pain persists, seek medical attention."],
+         "context_set": ""
+        },
+        {"tag": "Blisters",
+         "patterns": ["How to treat blisters?", "What to do if blisters form?", "Which medicine to apply for blisters?", "Blister care", "Blisters"],
+         "responses": ["Wash the area gently with soap and water. Cover the blister with a sterile bandage or dressing. If the blister pops, apply an antibiotic ointment to the area and cover it with a sterile dressing. Do not remove the roof of the blister; let it heal naturally. Pain relievers like acetaminophen can help with discomfort."],
+         "context_set": ""
+        },
+        {"tag": "Sunburn",
+         "patterns": ["How to treat sunburn?", "What to do for sunburn?", "Which medicine to apply for sunburn?", "Sunburn treatment", "Sunburn care"],
+         "responses": ["Cool the skin with a cool bath or a cold compress. Apply aloe vera gel or a moisturizing lotion to soothe the skin. Drink plenty of water to stay hydrated. Over-the-counter pain relievers like ibuprofen can help with pain and inflammation. Avoid sun exposure until the sunburn heals."],
+         "context_set": ""
+        },
+        {"tag": "Frostbite",
+         "patterns": ["How to treat frostbite?", "What to do for frostbite?", "Which medicine to apply for frostbite?", "Frostbite care", "Frostbite treatment"],
+         "responses": ["Move to a warm area immediately and remove any wet clothing. Warm the frostbitten area using body heat or warm (not hot) water. Do not rub the affected area. Seek medical attention if the frostbite is severe or covers a large area."],
+         "context_set": ""
+        },
+        {"tag": "Nosebleeds",
+         "patterns": ["How to stop a nosebleed?", "Nosebleed care", "What to do if a nosebleed happens?", "How to treat a nosebleed?", "Nosebleeds"],
+         "responses": ["Sit down and lean slightly forward. Pinch the soft part of your nose with your thumb and forefinger, applying steady pressure for about 10 minutes. Breathe through your mouth and avoid lying down. Apply a cold compress to the bridge of the nose to help constrict blood vessels. Seek medical help if the bleeding does not stop after 20 minutes."],
+         "context_set": ""
+        },
+        {"tag": "Allergic Reactions",
+         "patterns": ["How to treat allergic reactions?", "Allergic reaction care", "What to do for an allergic reaction?", "Which medicine to take for an allergic reaction?", "Allergic reactions"],
+         "responses": ["Take an antihistamine like diphenhydramine (Benadryl) to reduce symptoms. Use a cool compress to soothe the skin. If you have difficulty breathing, use an epinephrine injector if prescribed and seek emergency medical care immediately."],
+         "context_set": ""
+        },
+        {"tag": "Choking",
+         "patterns": ["What to do if someone is choking?", "How to treat choking?", "Choking first aid?", "Help for choking", "Choking emergency"],
+         "responses": ["Encourage the person to cough if they can. If they cannot cough, speak, or breathe, perform the Heimlich maneuver by standing behind them and giving upward abdominal thrusts. Seek emergency medical attention if the obstruction does not clear."],
+         "context_set": ""
+        },
+        {"tag": "Heat Exhaustion",
+         "patterns": ["How to treat heat exhaustion?", "What to do if heat exhaustion occurs?", "Heat exhaustion care", "Which medicine to take for heat exhaustion?", "Heat exhaustion treatment"],
+         "responses": ["Move the person to a cool place and remove excess clothing. Offer cool water or a sports drink. Apply cool, wet cloths to the skin or use a fan to lower body temperature. Seek medical attention if symptoms worsen or do not improve."],
+         "context_set": ""
+        },
+        {"tag": "Hypothermia",
+         "patterns": ["How to treat hypothermia?", "What to do if someone has hypothermia?", "Hypothermia care", "How to prevent hypothermia?", "Hypothermia treatment"],
+         "responses": ["Move the person to a warm environment. Remove wet clothing and cover them with blankets. Use warm, dry compresses on the neck, chest, or groin. Avoid direct heat such as heating pads or hot water. Seek medical help if the condition does not improve."],
+         "context_set": ""
+        },
+        {"tag": "Food Poisoning",
+         "patterns": ["How to treat food poisoning?", "What to do if you have food poisoning?", "Food poisoning care", "What to take for food poisoning?", "Food poisoning symptoms"],
+         "responses": ["Stay hydrated by drinking plenty of fluids. Rest as much as possible. Avoid solid foods until vomiting and diarrhea have subsided. Start with bland foods like toast, rice, or bananas once symptoms improve. Seek medical help if symptoms are severe or persistent."],
+         "context_set": ""
+        },
+        {
+        "tag": "Itchy Eyes",
+        "patterns": ["How to treat itchy eyes?", "What is the best medicine for itchy eyes?", "My eyes are itchy", "How to cure itchy eyes?", "Why are my eyes itching?"],
+        "responses": ["Wash your hands before touching your eyes. Avoid rubbing your eyes to prevent further irritation. Use a cold compress on the itchy eyes to reduce inflammation. Antihistamine eye drops like ketotifen can help reduce itching. If allergies are the cause, avoid allergens that trigger symptoms. If symptoms persist, consult an eye doctor."],
+        "context_set": ""
+        },
+        {
+        "tag": "Itching",
+        "patterns": ["How to treat itching?", "What is the best medicine for itching?", "Itching on the skin", "How to cure itchy skin?", "Why is my skin itchy?", "Why do I have itching?"],
+        "responses": ["Clean the itchy area with mild soap and water. Avoid scratching to prevent further irritation. Use calamine lotion or antihistamine cream to relieve itching. A cold compress on the itchy area can help reduce discomfort. If the itching persists or is accompanied by other symptoms, see a doctor."],
+        "context_set": ""
+        },
+        {
+        "tag": "Eye Pain",
+        "patterns": ["How to treat eye pain?", "What is the best medicine for eye pain?", "Why are my eyes hurting?", "How to relieve eye pain?", "My eyes are in pain", "What to do if eyes feel painful?"],
+        "responses": ["Rest your eyes and avoid excessive screen time. Use lubricating eye drops to keep your eyes moist. A warm compress can help relieve eye strain. If your eyes feel dry, use artificial tears. Consult an eye doctor if the pain does not go away or is accompanied by other symptoms like blurred vision."],
+        "context_set": ""
         }
+    
    ]
 }
