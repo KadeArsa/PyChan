@@ -1,10 +1,29 @@
 {"intents": [
+        {"tag": "greeting",
+        "patterns": ["Hello Pychan", "Hello", "Pychan","Hai"],
+        "responses": ["Hi, is there anything I can help you with?"],
+        "context_set": ""
+        },
+        {"tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "good bye"],
+        "responses": ["See you again"],
+        "context_set": ""
+        },
+        {"tag": "thanks",
+        "patterns": ["Thank you", "Thank", "Great", "Good", "Awesome", "Cool"],
+        "responses": ["Happy to help"],
+        "context_set": ""
+        },
+        {"tag": "pychan",
+        "patterns": ["What are your capabilities", "What can you help with", "Tell me what you can do", "What services do you offer", "Can you help with health?"],
+        "responses": ["I am a health chatbot that provides information and personalized health advice."],
+        "context_set":""
+        },
         {"tag": "Cuts",
          "patterns": ["What to do if Cuts?", "How to cure Cuts?", "Which medicine to apply for Cuts?", "what to apply on cuts?", "Cuts"],
          "responses": ["Wash the cut properly to prevent infection and stop the bleeding by applying pressure for 1-2minutes until bleeding stops. Apply Petroleum Jelly to make sure that the wound is moist for quick healing. Finally cover the cut with a sterile bandage. Pain relievers such as acetaminophen can be applied."],
          "context_set": ""
         },
-
         {"tag": "Abrasions",
          "patterns": ["how do you treat abrasions?", "Do Abrasions cause scars?", "Abrasions", "what to do if abrasions?", "Which medicine to apply for abrasions?", "How to cure abrasions?"],
          "responses": ["Begin with washed hands.Gently clean the area with cool to lukewarm water and mild soap. Remove dirt or other particles from the wound using sterilized tweezers.For a mild scrape that’s not bleeding, leave the wound uncovered.If the wound is bleeding, use a clean cloth or bandage, and apply gentle pressure to the area to stop any bleeding.Cover a wound that bled with a thin layer of topical antibiotic ointment, like Bacitracin, or a sterile moisture barrier ointment, like Aquaphor. Cover it with a clean bandage or gauze. Gently clean the wound and change the ointment and bandage once per day.Watch the area for signs of infection, like pain or redness and swelling. See your doctor if you suspect infection."],
@@ -24,7 +43,7 @@
         },
         
         {"tag": "Sprains",
-         "patterns": ["How do you treat a sprain?", "what to do if i get a sprain?", "Which cream to apply if i get a sprain?", "Which medicine to apply if I get a sprain?"],
+         "patterns": ["How do you treat a sprained?", "what to do if i get a sprained?", "Which cream to apply if i get a sprained?", "Which medicine to apply if I get a sprained?"],
          "responses": ["Use an ice pack or ice slush bath immediately for 15 to 20 minutes and repeat every two to three hours while you're awake. To help stop swelling, compress the ankle with an elastic bandage until the swelling stops. In most cases, pain relievers — such as ibuprofen (Advil, Motrin IB, others) or naproxen sodium (Aleve, others) or acetaminophen (Tylenol, others) are enough to manage the pain of a sprained ankle."],
          "context_set": ""
         },

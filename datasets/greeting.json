@@ -1,23 +1,23 @@
 {"intents": [
-        {"tag": "greeting",
-        "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
-        "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
-        "context": [""]
-        },
-        {"tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
-        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
-        "context": [""]
-        },
-        {"tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure"],
-        "context": [""]
-        },
-        {"tag": "noanswer",
-        "patterns": [],
-        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
-        "context": [""]
-        }
+    {"tag": "greeting",
+    "patterns": ["Hello Pychan", "Hello", "Pychan","Hai"],
+    "responses": ["Hi, is there anything I can help you with?"],
+    "context_set": ""
+    },
+    {"tag": "goodbye",
+    "patterns": ["Bye", "Goodbye", "good bye"],
+    "responses": ["See you again"],
+    "context_set": ""
+    },
+    {"tag": "thanks",
+    "patterns": ["Thank you", "Thank", "Great", "Good", "Awesome", "Cool"],
+    "responses": ["Happy to help"],
+    "context_set": ""
+    },
+    {"tag": "pychan",
+    "patterns": ["What are your capabilities", "What can you help with", "Tell me what you can do", "What services do you offer", "Can you help with health?"],
+    "responses": ["I am a health chatbot that provides information and personalized health advice."],
+    "context_set":""
+    }
     ]
 }
